@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Page of Sunil Kumar">
+    <link rel="icon" href="./img and resume/icon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="./styles.css">
+ <style>
+        .profile-picture {
+    width: 120px; 
+    height: 120px; 
+        object-fit: cover; 
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+    #resume {
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(to right, #e3f2fd, #bbdefb);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    #resume:hover {
+        transform: translateY(-10px);
+        background: linear-gradient(to right, #64b5f6, #42a5f5);
+    }
+    #resume h2 {
+        font-size: 1.8rem;
+        color: #1565c0;
+    }
+    .download-button {
+        font-size: 1.2rem;
+        color: white;
+        background: #42f578;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        display: inline-block;
+        margin-top: 10px;
+        transition: background 0.3s ease;
+    }
+    .download-button:hover {
+        background: #1e88e5;
+    }
+    #skills {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        background: linear-gradient(to right, #fff3e6, #ffe0b2);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #skills:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    #skills h2 {
+        text-align: center;
+        color: #d35400;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    #skills h3 {
+        font-size: 1.5rem;
+        color: #1565c0;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+    #skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #skills li {
+        font-size: 1.2rem;
+        color: #5d4037;
+        padding: 5px;
+        transition: color 0.3s ease, font-size 0.3s ease;
+    }
+    #skills li:hover {
+        color: #d35400;
+        font-size: 1.3rem;
+    }
+</style>
+
+    </style>
+</head>
+<body>
+    <header>
+      <center>
+          <div class="header-content">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+            <h2>SUNIL KUMAR L S</h2>
+            <p>I'm a BCA student</p>
+        </div>
+      </center>
+        <img src="./img and resume/passport_size_photo.jpg" alt="Profile Picture" class="profile-picture">
+    </header>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm a <b>web developer</b> and a passionate student currently pursuing a Bachelor's in Computer Application. I have a strong foundation in languages like HTML, CSS, JavaScript, Python, C++, and Java. I enjoy playing cricket and football when not coding. I'm excited to grow as a developer and contribute to impactful projects!</p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Bachelor's in Computer Application<br>
+                Pachaiyappa's College For Men, Kancheepuram.<br>
+                Madras University</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills & Technical Skills</h2>
+            <h3>Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>English Typing</li>
+                <li>Tamil Typing</li>
+                <li>Logical Thinking</li>
+                <li>Short Hand in English</li>
+            </ul>
+        </div>
+    </section>
+      <section id="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <center>
+            <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
+            </center>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 SUNIL KUMAR L S</p>
+    </footer>
+<script src="./JS/script.js"></script> 
+</body>
+</html>

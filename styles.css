@@ -1,0 +1,126 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to right, #f9f9f9, #e9e9e9);
+}header {
+    background: linear-gradient(to right, #1568d4, #18417a);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    animation: fadeIn 2s;
+}
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+section:hover {
+    transform: scale(1.02);
+}
+section h2 {
+    color: #1568d4;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* Styling for the About Me section */
+#about {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#about:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#about h2 {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#about p {
+    font-size: 1.2rem;
+    color: #1b5e20;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Styling for the Education section */
+#education {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#education:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#education h2 {
+    text-align: center;
+    color: #1565c0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#education p {
+    font-size: 1.2rem;
+    color: #0d47a1;
+    line-height: 1.5;
+    text-align: justify;
+}
+.download-button {
+    background-color: aqua;
+    color: #333;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.download-button:hover {
+    background-color: #9abb21;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    border-top: 3px solid #1568d4;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
