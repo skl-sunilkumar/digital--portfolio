@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Portfolio</title>
     <meta charset="UTF-8">
@@ -7,131 +8,149 @@
     <meta name="description" content="Personal Portfolio Page of Sunil Kumar">
     <link rel="icon" href="./icon.jpg" type="image/jpg">
     <link rel="stylesheet" href="./styles.css">
- <style>
+    <style>
         .profile-picture {
-    width: 120px; 
-    height: 120px; 
-        object-fit: cover; 
-    position: absolute;
-    top: 40px;
-    right: 40px;
-}
-    #resume {
-        text-align: center;
-        padding: 20px;
-        background: linear-gradient(to right, #e3f2fd, #bbdefb);
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease, background-color 0.3s ease;
-    }
-    #resume:hover {
-        transform: translateY(-10px);
-        background: linear-gradient(to right, #64b5f6, #42a5f5);
-    }
-    #resume h2 {
-        font-size: 1.8rem;
-        color: #1565c0;
-    }
-    .download-button {
-        font-size: 1.2rem;
-        color: white;
-        background: #42f578;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 30px;
-        display: inline-block;
-        margin-top: 10px;
-        transition: background 0.3s ease;
-    }
-    .download-button:hover {
-        background: #1e88e5;
-    }
-    #skills {
-        padding: 20px;
-        margin: 20px auto;
-        max-width: 800px;
-        background: linear-gradient(to right, #fff3e6, #ffe0b2);
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    #skills:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
-    #skills h2 {
-        text-align: center;
-        color: #d35400;
-        font-size: 2rem;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-    }
-    #skills h3 {
-        font-size: 1.5rem;
-        color: #1565c0;
-        margin-bottom: 10px;
-        text-transform: capitalize;
-    }
-    #skills ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    #skills li {
-        font-size: 1.2rem;
-        color: #5d4037;
-        padding: 5px;
-        transition: color 0.3s ease, font-size 0.3s ease;
-    }
-    #skills li:hover {
-        color: #d35400;
-        font-size: 1.3rem;
-    }
-    #contact {
-        padding: 20px;
-        margin: 20px auto;
-        max-width: 800px;
-        background: linear-gradient(to right, #e0f7fa, #b2ebf2);
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    #contact:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
-    #contact h2 {
-        text-align: center;
-        color: #00838f;
-        font-size: 2rem;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-    }
-    #contact p {
-        font-size: 1.2rem;
-        color: #263238;
-        line-height: 1.6;
-    }
-    #contact a {
-        color: #00acc1;
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-    #contact a:hover {
-        color: #006064;
-    }
-</style>
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            position: absolute;
+            top: 40px;
+            right: 40px;
+        }
 
+        #resume {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #e3f2fd, #bbdefb);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        #resume:hover {
+            transform: translateY(-10px);
+            background: linear-gradient(to right, #64b5f6, #42a5f5);
+        }
+
+        #resume h2 {
+            font-size: 1.8rem;
+            color: #1565c0;
+        }
+
+        .download-button {
+            font-size: 1.2rem;
+            color: white;
+            background: #42f578;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+
+        .download-button:hover {
+            background: #1e88e5;
+        }
+
+        #skills {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: linear-gradient(to right, #fff3e6, #ffe0b2);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #skills:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        #skills h2 {
+            text-align: center;
+            color: #d35400;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        #skills h3 {
+            font-size: 1.5rem;
+            color: #1565c0;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #skills li {
+            font-size: 1.2rem;
+            color: #5d4037;
+            padding: 5px;
+            transition: color 0.3s ease, font-size 0.3s ease;
+        }
+
+        #skills li:hover {
+            color: #d35400;
+            font-size: 1.3rem;
+        }
+
+        #contact {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #contact:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        #contact h2 {
+            text-align: center;
+            color: #00838f;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        #contact p {
+            font-size: 1rem; /* Reduced font size here */
+            color: #263238;
+            line-height: 1.4; /* Adjusted line height for smaller text */
+        }
+
+        #contact a {
+            color: #00acc1;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        #contact a:hover {
+            color: #006064;
+        }
     </style>
+
 </head>
+
 <body>
     <header>
-      <center>
-          <div class="header-content">
-            <h1>WELCOME TO MY PORTFOLIO</h1>
-            <h2>SUNIL KUMAR L S</h2>
-            <p>I'm a BCA student</p>
-        </div>
-      </center>
+        <center>
+            <div class="header-content">
+                <h1>WELCOME TO MY PORTFOLIO</h1>
+                <h2>SUNIL KUMAR L S</h2>
+                <p>I'm a BCA student</p>
+            </div>
+        </center>
         <img src="./passport_size_photo.jpg" alt="Profile Picture" class="profile-picture">
     </header>
     <section id="about">
@@ -168,11 +187,11 @@
             </ul>
         </div>
     </section>
-      <section id="resume">
+    <section id="resume">
         <div class="section-content">
             <h2>Resume</h2>
             <center>
-            <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
+                <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
             </center>
         </div>
     </section>
@@ -188,6 +207,7 @@
     <footer>
         <p>&copy; 2025 SUNIL KUMAR L S</p>
     </footer>
-<script src="./JS/script.js"></script> 
+    <script src="./JS/script.js"></script>
 </body>
+
 </html>
