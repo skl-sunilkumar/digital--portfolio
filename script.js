@@ -24,9 +24,4 @@ document.addEventListener("DOMContentLoaded", function() {
             section.style.backgroundColor = "white";
         });
     });
-    const downloadButton = document.querySelector(".download-button");
-    downloadButton.addEventListener("click", function(event) {
-        event.preventDefault();
-        alert("Your CV is being downloaded!");
-    });
-});
+    
